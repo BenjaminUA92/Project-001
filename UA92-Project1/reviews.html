@@ -1,0 +1,497 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game reviews n' news | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+
+                <a href="./index.html">
+
+                    <h2 class="logo" >Game reviews n' news</h2>
+                </a>
+
+                <div class="menu" id="menu">
+
+                    <ul class="list">
+
+                        <li class="list-item">
+
+                            <a href="index.html" class="list-link current">Home</a>
+                        </li>
+                        <li class="list-item">
+
+                            <a href="#" class="list-link">Catagory</a>
+                        </li>
+                        <li class="list-item">
+
+                            <a href="reviews.html" class="list-link">Reviews</a>
+                        </li>
+                        <li class="list-item">
+
+                            <a href="news.html" class="list-link">News</a>
+                        </li>
+                        <li class="list-item">
+
+                            <a href="#" class="list-link">Membership</a>
+                        </li>
+                        <li class="list-item">
+
+                            <a href="#" class="list-link">Contact</a>
+                        </li>
+                        <li class="list-item screen-lg-hidden">
+
+                            <a href="#" class="list-link">Sign in</a>
+                        </li>
+                        <li class="list-item screen-lg-hidden">
+
+                            <a href="#" class="list-link">Sign up</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="list list-right">
+
+                    <button class="btn place-items-center" id="theme-toggle-btn">
+                        <i class="ri-sun-line sun-icon"></i>
+                        <i class="ri-moon-line moon-icon"></i>
+                    </button>
+
+                    <button class="btn place-items-center" id="search-icon">
+
+                        <i class="ri-search-line"></i>
+                    </button>
+
+                    <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                        <i class="ri-menu-3-line open-menu-icon"></i>
+                        <i class="ri-close-line close-menu-icon"></i>
+                    </button>
+
+                    <a href="#" class="list-link screen-sm-hidden">sign in</a>
+                    <a href="#" class="list-link screen-sm-hidden btn sign-up-btn fancy-border">
+                        
+                        <span>Sign in</span>
+                    </a>
+
+                </div>
+        </nav>
+    </header> 
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+        <div class="form-container-inner">
+
+            <form action=""class="form">
+
+                <input type="text" class="form-input" placeholder="what are you looking for?">
+                
+                <button class="btn form-btn" type="submit">
+
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">or press ESC to close</span>
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+    </div>
+
+    <!-- Featured articles -->
+    <section class="featured-articles section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-items-centre">Breaking News</span>
+                    </h3>
+                    <span class="headline-description">Elden ring game of the year 2022!</span>
+                </div>
+
+
+                <!-- article 1 - GOW Rag-->
+                <a href="./GOW-Ragnarok-Review.html" class="article featured-article featured-article-1">
+                    <img src="./assets/images/featured/kratosImg.jpg" alt="" class="article-image">
+                    <span class="article-category">ps exclusive</span>
+
+                    <div class="article-data-container">
+                        <div class="article-data">
+                            <span>14/04/23</span>
+                            <span class="article-data-spacer"></span>
+                            <span>10min est. read</span>
+
+                        </div>
+                        <h3 class="title article-title">A Masterful Action-Adventure</h3>
+                    </div>
+                </a>
+
+
+                <!-- article 2 - EldenRing -->
+                <a href="./EldenRing-Review.html" class="article featured-article featured-article-2">
+                    <img src="./assets/images/featured/elden-ring.jpg" alt="" class="article-image">
+                    <span class="article-category">GOTY</span>
+
+                    <div class="article-data-container">
+                        <div class="article-data">
+                            <span>18/04/23</span>
+                            <span class="article-data-spacer"></span>
+                            <span>16 min est. read</span>
+
+                        </div>
+                        <h3 class="title article-title">A Captivating Journey Through a Stunning World</h3>
+                    </div>
+                </a>
+                <!-- article 3 - doom eternal-->
+                <a href="./Doom-Eternal-Review.html" class="article featured-article featured-article-3">
+                    <img src="./assets/images/featured/Doom-Eternal.jpg" alt="" class="article-image">
+                    <span class="article-category">Xbox GamePass</span>
+
+                    <div class="article-data-container">
+                        <div class="article-data">
+                            <span>21/04/21</span>
+                            <span class="article-data-spacer"></span>
+                            <span>14 min est. read</span>
+
+                        </div>
+                        <h3 class="title article-title">A Heart-Pounding Thrill Ride</h3>
+                    </div>
+                </a>
+
+            </div>
+
+                
+
+            <!-- Sidebar -->
+            <div class="sidebar d-grid">
+                <h3 class="title featured-content-title">Trending</h3>
+
+                <a href="Doom-Eternal-Review.html" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">01</span>
+                        <img src="./assets/images/featured/Doom-Eternal.jpg" alt="" class="article-image">
+                    </div>
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>21/04/21</span>
+                            <span class="article-data-spacer"></span>
+                            <span>14 min est. read</span>
+
+                        </div>
+                        <h3 class="title article-title">A Heart-Pounding Thrill Ride</h3>
+                    </div>
+
+                </a>
+                <a href="PsVsXbox.html" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">02</span>
+                        <img src="./assets/images/featured/PsVsXbox.jpg" alt="" class="article-image">
+                    </div>
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>19/4/23</span>
+                            <span class="article-data-spacer"></span>
+                            <span>20 min est. read</span>
+
+                        </div>
+                        <h3 class="title article-title">PlayStation 5 VS Xbox Series x</h3>
+                    </div>
+
+                </a>
+                <a href="GOW-Ragnarok-Review.html" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">03</span>
+                        <img src="./assets/images/featured/kratosImg.jpg" alt="" class="article-image">
+                    </div>
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>14/4/23</span>
+                            <span class="article-data-spacer"></span>
+                            <span>10 min est. read</span>
+
+                        </div>
+                        <h3 class="title article-title">A Masterful Action-Adventure</h3>
+                    </div>
+
+                </a>
+                <a href="EldenRing-Review.html" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">04</span>
+                        <img src="./assets/images/featured/elden-ring.jpg" alt="" class="article-image">
+                    </div>
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>18/4/23</span>
+                            <span class="article-data-spacer"></span>
+                            <span>16 min est. read</span>
+
+                        </div>
+                        <h3 class="title article-title">A Captivating Journey Through a Stunning World</h3>
+                    </div>
+
+                </a>
+                <a href="Impact-of-Gaming-Article.html" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">05</span>
+                        <img src="./assets/images/featured/featured-1.jpg" alt="" class="article-image">
+                    </div>
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>18/4/23</span>
+                            <span class="article-data-spacer"></span>
+                            <span>10 min est. read</span>
+
+                        </div>
+                        <h3 class="title article-title">The Pros and Cons of Gaming</h3>
+                    </div>
+
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Quick read -->
+    <section class="quick-read section">
+        <div class="container">
+            <h2 class="title section-title" data-name="Quick read">Quick read</h2>
+
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <a href="Gaming-Article.html" class="article swiper-slide">
+                        <img src="./assets/images/featured/elden-ring.jpg" alt="" class="article-image">
+                    
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>18/4/23</span>
+                                <span class="article-data-spacer"></span>
+                                <span>10 min est. read</span>
+    
+                            </div>
+                            <h3 class="title article-title">The Pros and Cons of Gaming</h3>
+                        </div>
+
+                    </a>
+                    <a href="Doom-Eternal-Review.html" class="article swiper-slide">
+                        <img src="./assets/images/featured/Doom-Eternal.jpg" alt="" class="article-image">
+                    
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>21/4/21</span>
+                                <span class="article-data-spacer"></span>
+                                <span>14 min est. read</span>
+    
+                            </div>
+                            <h3 class="title article-title">A Heart-Pounding Thrill Ride</h3>
+                        </div>
+                        
+                    </a>
+                    <a href="PsVsXbox.html" class="article swiper-slide">
+                        <img src="./assets/images/featured/PsVsXbox.jpg" alt="" class="article-image">
+                    
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>14/4/23</span>
+                                <span class="article-data-spacer"></span>
+                                <span>20 min est. read</span>
+    
+                            </div>
+                            <h3 class="title article-title">PlayStation 5 VS Xbox Series x</h3>
+                        </div>
+                        
+                    </a>
+                    <a href="GOW-Ragnarok-Review.html" class="article swiper-slide">
+                        <img src="./assets/images/featured/kratosImg.jpg" alt="" class="article-image">
+                    
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>14/4/23</span>
+                                <span class="article-data-spacer"></span>
+                                <span>10 min est. read</span>
+    
+                            </div>
+                            <h3 class="title article-title">A Masterful Action-Adventure</h3>
+                        </div>
+                        
+                    </a>
+                    <a href="Impact-of-Gaming-Article.html" class="article swiper-slide">
+                        <img src="./assets/images/featured/featured-1.jpg" alt="" class="article-image">
+                    
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>18/4/23</span>
+                                <span class="article-data-spacer"></span>
+                                <span>17 min est. read</span>
+    
+                            </div>
+                            <h3 class="title article-title">Technological Improvements Beyond Entertainment</h3>
+                        </div>
+                        
+                    </a>
+                    <a href="EldenRing-Review.html" class="article swiper-slide">
+                        <img src="./assets/images/featured/elden-ring.jpg" alt="" class="article-image">
+                    
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>18/4/23</span>
+                                <span class="article-data-spacer"></span>
+                                <span>16 min est. read</span>
+    
+                            </div>
+                            <h3 class="title article-title">A Captivating Journey Through a Stunning World</h3>
+                        </div>
+                        
+                    </a>
+
+                </div>
+                <div class="swiper-button-prev swiper-controls"></div>
+                <div class="swiper-button-next swiper-controls"></div>
+                <div class="swiper-pagination">
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Older posts -->
+    
+    <!-- Popular tags -->
+
+    <!-- Newsletter -->
+    
+    <!-- Footer -->
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+
+            <div class="company-data">
+                <a href="./index.html" >
+                    <h2 class="logo">reviews n' news</h2>
+                </a>
+                <p class="company-description">
+                    Welcome to our gaming news and reviews site! We are dedicated to providing you with the latest news, reviews, and insights about the ever-evolving world of gaming.
+                </p>
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="#" class="list-link">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+                        <a href="#" class="list-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                        <a href="#" class="list-link">
+                            <i class="ri-pinterest-line"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <span class="copyright-notice">&copy; 2023 reviews n' news unreserved.</span>
+                
+            </div>
+
+            <div>
+                <h6 class="title footer-title">catagories 1</h6>
+                
+                <ul class="list footer-list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                </ul>
+
+            
+            </div>
+            <div>
+                <h6 class="title footer-title">catagories 2</h6>
+                
+                <ul class="list footer-list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                </ul>
+
+            
+            </div>
+            <div>
+                <h6 class="title footer-title">catagories 3</h6>
+                
+                <ul class="list footer-list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                </ul>
+
+            
+            </div>
+        
+
+
+        </div>
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
